@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "839645080902",
+    "project_id": "all-4-ocean",
+    "storage_bucket": "all-4-ocean.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839645080902:android:e4b71b941b18b340fdc947",
+        "android_client_info": {
+          "package_name": "com.fiap.all4ocean"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgy4bjvj-qP9_meUd7lQj0Dp1jzjuMuJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

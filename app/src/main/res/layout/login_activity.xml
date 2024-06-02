@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cc">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/oceano_mar"
+        android:contentDescription="Image" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/imageView"
+        android:drawableEnd="@drawable/ic_email"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:backgroundTint="#FFFFFF"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/background_edittext"
+        android:autofillHints="emailAddress" />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginTop="35dp"
+        android:padding="12dp"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:background="@drawable/background_edittext"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:id="@+id/redefinirSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/senha"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:text="Esqueci a Senha"/>
+
+
+    <Button
+        android:id="@+id/ButtonEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/redefinirSenha"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/button"
+        android:text="Entrar" />
+
+    <Button
+        android:id="@+id/ButtonCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ButtonEntrar"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="Cadastrar"/>
+
+</RelativeLayout>
