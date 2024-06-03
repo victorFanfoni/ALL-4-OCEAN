@@ -1,20 +1,30 @@
 package com.fiap.all4ocean
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.activity.ComponentActivity
 
 class ComoAjudar : ComponentActivity() {
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.como_ajudar)
 
-        val buttonVoltar = findViewById<Button>(R.id.buttonVoltar)
+        val home = findViewById<ImageView>(R.id.home)
+        val atualizarCadastro = findViewById<ImageView>(R.id.imageView5)
 
-        buttonVoltar.setOnClickListener {
+        home.setOnClickListener{
             val intent = Intent(this, Logado::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        atualizarCadastro.setOnClickListener{
+            val intent = Intent(this, AtualizarCadastro::class.java)
             startActivity(intent)
             finish()
         }

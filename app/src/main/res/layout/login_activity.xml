@@ -5,16 +5,22 @@
     android:background="@color/cc">
 
 
-    <ImageView
-        android:id="@+id/imageView"
+    <Toolbar
+        android:id="@+id/tollbar"
         android:layout_width="match_parent"
-        android:layout_height="212dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="0dp"
-        android:src="@drawable/oceano_mar"
-        android:contentDescription="Image" />
+        android:layout_height="223dp"
+        android:background="@drawable/oceano_mar" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="212dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:layout_marginEnd="0dp"-->
+<!--        android:src="@drawable/oceano_mar"-->
+<!--        android:contentDescription="Image" />-->
 
     <EditText
         android:id="@+id/email"
@@ -23,7 +29,7 @@
         android:layout_marginTop="70dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_below="@+id/imageView"
+        android:layout_below="@+id/tollbar"
         android:drawableEnd="@drawable/ic_email"
         android:hint="email"
         android:inputType="textEmailAddress"
