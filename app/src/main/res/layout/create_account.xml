@@ -18,7 +18,7 @@
         android:background="@drawable/background_edittext"
         android:drawableEnd="@drawable/ic_email"
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:padding="12dp" />
 
@@ -35,7 +35,7 @@
         android:background="@drawable/background_edittext"
         android:drawableEnd="@drawable/ic_password"
         android:ems="10"
-        android:hint="Senha"
+        android:hint="@string/senha"
         android:inputType="textPassword"
         android:padding="12dp" />
 
@@ -52,7 +52,7 @@
         android:background="@drawable/background_edittext"
         android:drawableEnd="@drawable/ic_password"
         android:ems="10"
-        android:hint="Confirmacao Senha"
+        android:hint="@string/confirmacao_senha"
         android:inputType="textPassword"
         android:padding="12dp" />
 
@@ -66,7 +66,7 @@
         android:layout_marginTop="129dp"
         android:layout_marginEnd="160dp"
         android:background="@drawable/button"
-        android:text="Cadastrar" />
+        android:text="@string/cadastrar" />
 
     <Button
         android:id="@+id/buttonVoltar"
@@ -80,6 +80,6 @@
         android:layout_marginEnd="145dp"
         android:background="@drawable/button"
         android:drawableStart="@drawable/ic_arrow_back_ios_24"
-        android:text="Voltar" />
+        android:text="@string/voltar" />
 
 </RelativeLayout>

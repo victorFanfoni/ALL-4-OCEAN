@@ -36,10 +36,10 @@ class AtualizarCadastro : ComponentActivity() {
             val telefone = telefoneEditText.text.toString()
 
             if (nome.isEmpty() || telefone.isEmpty()) {
-                Toast.makeText(this, "Preencha todos os campos!", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, R.string.preencha_todos_os_campos, Toast.LENGTH_LONG).show()
             } else {
                 updateDataUser(nome, telefone)
-                val intent = Intent(this, Logado::class.java)
+                val intent = Intent(this, UsuarioLogado::class.java)
                 intent.putExtra("nome", nome)
                 startActivity(intent)
                 finish()
@@ -47,13 +47,13 @@ class AtualizarCadastro : ComponentActivity() {
         }
 
         home.setOnClickListener {
-            val intent = Intent(this, Logado::class.java)
+            val intent = Intent(this, UsuarioLogado::class.java)
             startActivity(intent)
             finish()
         }
     }
 
-    fun updateDataUser(nome: String, telefone: String) {
+    private fun updateDataUser(nome: String, telefone: String) {
         val user = User(nome, telefone)
         val userID = auth.currentUser?.uid
         if (userID != null) {

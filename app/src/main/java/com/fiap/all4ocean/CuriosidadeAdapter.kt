@@ -8,30 +8,34 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class CuriosidadeAdapter(private val context: Context, private val curiosidades: List<Curiosidade>) : RecyclerView.Adapter<CuriosidadeAdapter.CuriosidadeViewHolder>() {
+class CuriosidadeAdapter(
+    private val context: Context,
+    private val curiosidades: List<String>,
+    private val detalhesCuriosidades: List<String>
+) : RecyclerView.Adapter<CuriosidadeAdapter.ViewHolder>() {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CuriosidadeViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_curiosidade, parent, false)
-        return CuriosidadeViewHolder(view)
-    }
+    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val textViewCuriosidade: TextView = itemView.findViewById(R.id.textViewCuriosidade)
 
-    override fun onBindViewHolder(holder: CuriosidadeViewHolder, position: Int) {
-        val curiosidade = curiosidades[position]
-        holder.textViewCuriosidade.text = curiosidade.texto
-
-        holder.itemView.setOnClickListener {
-            val intent = Intent(context, CuriosidadeDetalheActivity::class.java).apply {
-                putExtra("curiosidade_texto", curiosidade.texto)
+        init {
+            itemView.setOnClickListener {
+                val position = adapterPosition
+                val intent = Intent(context, DetalheCuriosidadeActivity::class.java)
+                intent.putExtra(context.getString(R.string.curiosidade_texto), detalhesCuriosidades[position])
+                intent.putExtra(context.getString(R.string.curiosidade_titulo), curiosidades[position])
+                context.startActivity(intent)
             }
-            context.startActivity(intent)
         }
     }
 
-    override fun getItemCount(): Int {
-        return curiosidades.size
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_curiosidade, parent, false)
+        return ViewHolder(view)
     }
 
-    class CuriosidadeViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val textViewCuriosidade: TextView = itemView.findViewById(R.id.textViewCuriosidade)
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        holder.textViewCuriosidade.text = curiosidades[position]
     }
+
+    override fun getItemCount(): Int = curiosidades.size
 }

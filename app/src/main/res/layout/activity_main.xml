@@ -22,7 +22,7 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="38dp"
         android:layout_marginEnd="171dp"
-        android:text="Voce Sabia?"
+        android:text="@string/voce_sabia"
         android:textColor="@color/white" />
 
     <TextView
@@ -51,6 +51,7 @@
         android:layout_marginTop="70dp"
         android:layout_marginEnd="50dp"
         android:background="@drawable/button"
-        android:text="Começar" />
+        android:textColor="@color/white"
+        android:text="@string/come_ar" />
 
 </RelativeLayout>

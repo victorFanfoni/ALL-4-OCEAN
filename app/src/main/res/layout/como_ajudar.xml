@@ -10,7 +10,7 @@
         android:layout_height="64dp"
         android:background="@color/aa"
         android:gravity="center"
-        android:text="Como Posso Ajudar?"
+        android:text="@string/como_eu_posso_ajudar"
         android:textColor="@color/white"
         android:textSize="24sp" />
 
@@ -25,7 +25,7 @@
         android:layout_marginEnd="5dp"
         android:background="@color/ee"
         android:textColor="@color/white"
-        android:text="Aqui estão algumas maneiras de ajudar a Economia Azul:\n\n1. Reduza o uso de plástico descartável.\n\n2. Participe de iniciativas de limpeza costeira.\n\n3. Apoie empresas e produtos sustentáveis.\n\n4. Eduque-se sobre os oceanos e sua importância para o planeta.\n\n5. Contribua para organizações de conservação marinha.\n\n6. Pratique pesca sustentável.\n\n7. Promova a conscientização sobre a importância dos oceanos para a vida na Terra."
+        android:text="@string/informacoes_como_ajudar"
         android:textSize="18sp" />
 
     <Toolbar
@@ -45,7 +45,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="166dp"
         android:layout_marginBottom="6dp"
-        android:src="@drawable/ic_home" />
+        android:src="@drawable/ic_home"
+        android:contentDescription="@string/home" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -55,7 +56,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="7dp"
         android:layout_marginBottom="6dp"
-        android:src="@drawable/ic_buscar_search" />
+        android:src="@drawable/ic_buscar_search"
+        android:contentDescription="@string/buscar" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -65,6 +67,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="7dp"
-        android:src="@drawable/ic_baseline" />
+        android:src="@drawable/ic_baseline"
+        android:contentDescription="@string/atulizar_cadastro" />
 
 </RelativeLayout>

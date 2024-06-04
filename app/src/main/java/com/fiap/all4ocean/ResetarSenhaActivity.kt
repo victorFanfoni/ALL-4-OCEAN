@@ -12,7 +12,7 @@ import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.auth
 
-class ResetPassword: ComponentActivity() {
+class ResetarSenhaActivity: ComponentActivity() {
 
     private lateinit var auth: FirebaseAuth
 
@@ -28,7 +28,7 @@ class ResetPassword: ComponentActivity() {
         val buttonVoltar = findViewById<Button>(R.id.button3)
 
         buttonVoltar.setOnClickListener {
-            val intent = Intent(this, Login::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }

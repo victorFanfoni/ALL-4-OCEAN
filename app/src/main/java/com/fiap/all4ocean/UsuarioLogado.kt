@@ -13,7 +13,7 @@ import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.auth.ktx.auth
 
-class Logado : ComponentActivity() {
+class UsuarioLogado : ComponentActivity() {
 
     private lateinit var auth: FirebaseAuth
     private lateinit var database: DatabaseReference
@@ -42,7 +42,7 @@ class Logado : ComponentActivity() {
         }
 
         home.setOnClickListener{
-            val intent = Intent(this, Logado::class.java)
+            val intent = Intent(this, UsuarioLogado::class.java)
             startActivity(intent)
             finish()
         }
@@ -55,23 +55,23 @@ class Logado : ComponentActivity() {
 
         buttonSair.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
-            val intent = Intent(this, Login::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }
 
         buttonComoAjudar.setOnClickListener {
-            val intent = Intent(this, ComoAjudar::class.java)
+            val intent = Intent(this, ComoAjudarActivity::class.java)
             startActivity(intent)
         }
 
         buttonCuriosidades.setOnClickListener {
-            val intent = Intent(this, Curiosidades::class.java)
+            val intent = Intent(this, ListaCuriosidadesActivity::class.java)
             startActivity(intent)
         }
 
         buttonSobre.setOnClickListener {
-            val intent = Intent(this, Sobre::class.java)
+            val intent = Intent(this, SobreActivity::class.java)
             startActivity(intent)
         }
     }

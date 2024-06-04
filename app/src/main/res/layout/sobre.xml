@@ -13,7 +13,7 @@
         android:layout_marginEnd="0dp"
         android:background="@color/white"
         android:gravity="center"
-        android:text="Sobre"
+        android:text="@string/sobre"
         android:textSize="24sp" />
 
     <TextView
@@ -24,7 +24,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="16dp"
-        android:text="Projeto: All4Ocean"
+        android:text="@string/projeto_all4ocean"
+        android:textColor="@color/white"
         android:textSize="18sp" />
 
     <TextView
@@ -33,9 +34,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textViewProjeto"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="58dp"
+        android:layout_marginTop="61dp"
         android:layout_marginEnd="16dp"
-        android:text="Economia Azul: Informações sobre a Economia Azul aqui..."
+        android:textColor="@color/white"
+        android:text="@string/economia_azul_informa"
         android:textSize="18sp" />
 
     <Button
@@ -47,6 +49,7 @@
         android:layout_marginEnd="158dp"
         android:layout_marginBottom="145dp"
         android:background="@drawable/button"
-        android:text="Voltar" />
+        android:textColor="@color/white"
+        android:text="@string/voltar" />
 
 </RelativeLayout>

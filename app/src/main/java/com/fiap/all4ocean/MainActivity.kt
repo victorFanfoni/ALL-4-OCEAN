@@ -14,7 +14,7 @@ class MainActivity : ComponentActivity() {
         val ButtonComeçar =findViewById<Button>(R.id.ButtonComecar)
 
         ButtonComeçar.setOnClickListener {
-            val intent = Intent(this, Login::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
         if (currentUser == null) {
 
         } else {
-            startActivity(Intent(this, Logado::class.java))
+            startActivity(Intent(this, UsuarioLogado::class.java))
         }
     }
 }

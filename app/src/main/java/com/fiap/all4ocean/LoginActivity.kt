@@ -12,7 +12,7 @@ import androidx.activity.ComponentActivity
 import com.google.firebase.auth.FirebaseAuth
 
 
-class Login : ComponentActivity() {
+class LoginActivity : ComponentActivity() {
 
     private lateinit var auth: FirebaseAuth
 
@@ -30,7 +30,7 @@ class Login : ComponentActivity() {
         val resetPasswordTextView = findViewById<TextView>(R.id.redefinirSenha)
 
         registerButton.setOnClickListener {
-            val intent = Intent(this, Cadastrar::class.java)
+            val intent = Intent(this, CadastroActivity::class.java)
             startActivity(intent)
         }
 
@@ -39,17 +39,17 @@ class Login : ComponentActivity() {
             val password = password.text.toString()
 
             if (email.isEmpty() || password.isEmpty()){
-                Toast.makeText(this, "Preencha todos os campos!!", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, R.string.preencha_todos_os_campos, Toast.LENGTH_LONG).show()
             }
             else if (!email.contains("@")){
-                Toast.makeText(this, "Email Invalido!", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, R.string.email_invalido, Toast.LENGTH_LONG).show()
             }else{
                 signInWithEmailAndPassword(email, password)
             }
         }
 
         resetPasswordTextView.setOnClickListener {
-            val intent = Intent(this, ResetPassword::class.java)
+            val intent = Intent(this, ResetarSenhaActivity::class.java)
             startActivity(intent)
         }
     }
@@ -65,7 +65,7 @@ class Login : ComponentActivity() {
 
     private fun signInWithEmailAndPassword(email: String, password: String) {
         if (!isNetworkAvailable()) {
-            Toast.makeText(this,"Email ou senha invalidos", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.email_ou_senha_invalidos), Toast.LENGTH_SHORT).show()
             return
         }
         auth.signInWithEmailAndPassword(email, password)
@@ -77,7 +77,7 @@ class Login : ComponentActivity() {
                 } else {
                     Toast.makeText(
                         this,
-                        "Email ou senha inválidos.",
+                        getString(R.string.email_ou_senha_invalidos),
                         Toast.LENGTH_SHORT,
                     ).show()
                 }

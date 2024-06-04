@@ -20,7 +20,7 @@
         android:layout_marginStart="19dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/background_button2"
-        android:text="Curiosidades"
+        android:text="@string/Curiosidade"
         android:textColor="@color/white" />
 
     <Button
@@ -28,13 +28,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="45dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="42dp"
         android:layout_toStartOf="@+id/ComoAjudar"
         android:layout_toEndOf="@+id/Curiosidades"
         android:background="@drawable/background_button2"
-        android:text="Sobre"
+        android:text="@string/sobre"
         android:textColor="@color/white" />
 
     <Button
@@ -46,7 +46,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="28dp"
         android:background="@drawable/background_button2"
-        android:text="Ajudar"
+        android:text="@string/ajudar"
         android:textColor="@color/white" />
 
     <TextView
@@ -58,7 +58,7 @@
         android:layout_marginStart="13dp"
         android:layout_marginTop="19dp"
         android:drawableStart="@drawable/ic_arrow_back_ios_24"
-        android:text="Sair"
+        android:text="@string/sair"
         android:textColor="@color/white"
         android:textAllCaps="true" />
 
@@ -68,12 +68,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="92dp"
         android:layout_centerInParent="true"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
+        android:layout_marginStart="96dp"
         android:layout_marginTop="38dp"
-        android:text="Ajude a cuidar dos nossos oceanos!! "
+        android:text="@string/ajude_a_cuidar_dos_nossos_oceanos"
         android:textColor="@color/white" />
 
     <Toolbar
@@ -91,7 +89,10 @@
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="166dp"
+        android:layout_marginStart="177dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
         android:layout_marginBottom="6dp"
         android:src="@drawable/ic_home" />
 
@@ -126,7 +127,9 @@
         android:layout_marginStart="178dp"
         android:layout_marginTop="47dp"
         android:layout_marginEnd="165dp"
-        android:text="Bem Vindo"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/bem_vindo"
         android:textColor="@color/white" />
 
     <TextView
@@ -141,7 +144,7 @@
         android:layout_marginStart="178dp"
         android:layout_marginTop="82dp"
         android:layout_marginEnd="165dp"
-        android:text="TextView"
+        android:text=""
         android:textColor="@color/white" />
 
 </RelativeLayout>

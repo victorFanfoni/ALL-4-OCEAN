@@ -25,20 +25,20 @@
         </activity>
 
         <activity
-            android:name=".Login"
+            android:name=".LoginActivity"
             android:exported="true"/>
 
         <activity
-            android:name=".Cadastrar"
+            android:name=".CadastroActivity"
             android:exported="true"
             />
 
         <activity
-            android:name=".ResetPassword"
+            android:name=".ResetarSenhaActivity"
             android:exported="true"/>
 
         <activity
-            android:name=".Logado"
+            android:name=".UsuarioLogado"
             android:exported="true"/>
 
         <activity
@@ -46,19 +46,19 @@
             android:exported="true"/>
 
         <activity
-            android:name=".ComoAjudar"
+            android:name=".ComoAjudarActivity"
             android:exported="true"/>
 
         <activity
-            android:name=".Curiosidades"
+            android:name=".ListaCuriosidadesActivity"
             android:exported="true"/>
 
         <activity
-            android:name=".Sobre"
+            android:name=".SobreActivity"
             android:exported="true"/>
 
         <activity
-            android:name=".CuriosidadeDetalheActivity"
+            android:name=".DetalheCuriosidadeActivity"
             android:exported="true"/>
 
 

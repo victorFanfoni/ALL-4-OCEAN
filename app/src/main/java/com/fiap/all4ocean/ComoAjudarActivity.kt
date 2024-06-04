@@ -3,11 +3,10 @@ package com.fiap.all4ocean
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
 import androidx.activity.ComponentActivity
 
-class ComoAjudar : ComponentActivity() {
+class ComoAjudarActivity : ComponentActivity() {
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +17,7 @@ class ComoAjudar : ComponentActivity() {
         val atualizarCadastro = findViewById<ImageView>(R.id.imageView5)
 
         home.setOnClickListener{
-            val intent = Intent(this, Logado::class.java)
+            val intent = Intent(this, UsuarioLogado::class.java)
             startActivity(intent)
             finish()
         }

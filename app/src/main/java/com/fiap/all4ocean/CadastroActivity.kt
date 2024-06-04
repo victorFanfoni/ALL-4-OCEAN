@@ -12,7 +12,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
-class Cadastrar : ComponentActivity() {
+class CadastroActivity : ComponentActivity() {
 
     private lateinit var auth: FirebaseAuth
 
@@ -23,37 +23,32 @@ class Cadastrar : ComponentActivity() {
 
         auth = Firebase.auth
 
-        val email = findViewById<EditText>(R.id.editTextTextEmailAddress)
-        val password= findViewById<EditText>(R.id.editTextTextPassword)
-        val confirmPassword = findViewById<EditText>(R.id.editTextTextPassword2)
+        val emailEditText = findViewById<EditText>(R.id.editTextTextEmailAddress)
+        val passwordEditText = findViewById<EditText>(R.id.editTextTextPassword)
+        val confirmPasswordEditText = findViewById<EditText>(R.id.editTextTextPassword2)
         val registerButton = findViewById<Button>(R.id.button)
         val backButton = findViewById<Button>(R.id.buttonVoltar)
 
         backButton.setOnClickListener {
-            val intent = Intent(this, Login::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }
 
         registerButton.setOnClickListener {
-            val email = email.text.toString()
-            val password = password.text.toString()
-            val confirmPassword = confirmPassword.text.toString()
+            val email = emailEditText.text.toString()
+            val password = passwordEditText.text.toString()
+            val confirmPassword = confirmPasswordEditText.text.toString()
 
-            if (email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()){
-               Toast.makeText(this, "Preencha todos os campos!!", Toast.LENGTH_LONG).show()
-            }
-            else if (!email.contains("@")){
-                showAlert("Email invalido!!", "Email exemplo: usuario@gmail.com")
-                Toast.makeText(this,"Email invalido!", Toast.LENGTH_SHORT).show()
-            }
-            else if (password != confirmPassword){
-                Toast.makeText(this, "As senhas devem ser identicas!!", Toast.LENGTH_SHORT).show()
-            }
-            else if (password.length <= 5){
-                Toast.makeText(this, "A senha deve ter pelomenos 6 caracteres", Toast.LENGTH_SHORT).show()
-            }
-            else {
+            if (email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()) {
+                Toast.makeText(this, getString(R.string.preencha_todos_os_campos), Toast.LENGTH_LONG).show()
+            } else if (!email.contains("@")) {
+                showAlert(getString(R.string.email_invalido), getString(R.string.email_exemplo))
+            } else if (password != confirmPassword) {
+                Toast.makeText(this, getString(R.string.senhas_diferentes), Toast.LENGTH_SHORT).show()
+            } else if (password.length <= 5) {
+                Toast.makeText(this, getString(R.string.senha_curta), Toast.LENGTH_SHORT).show()
+            } else {
                 createAccount(email, password)
             }
         }
@@ -63,7 +58,7 @@ class Cadastrar : ComponentActivity() {
         val builder = AlertDialog.Builder(this)
         builder.setTitle(title)
         builder.setMessage(message)
-        builder.setPositiveButton("Ok") { dialog, _ -> dialog.dismiss() }
+        builder.setPositiveButton(getString(R.string.ok)) { dialog, _ -> dialog.dismiss() }
         val dialog = builder.create()
         dialog.show()
     }
@@ -71,22 +66,23 @@ class Cadastrar : ComponentActivity() {
     companion object {
         private const val TAG = "EmailAndPassword"
     }
-    fun createAccount(email: String, password: String) {
+
+    private fun createAccount(email: String, password: String) {
         auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this) { task ->
             if (task.isSuccessful) {
-                val user = com.google.firebase.ktx.Firebase.auth.currentUser
+                val user = Firebase.auth.currentUser
                 user!!.sendEmailVerification()
                     .addOnCompleteListener { task ->
                         if (task.isSuccessful) {
                             println("Email sent.")
                         }
                     }
-                Toast.makeText(this, " Cadastro Realizado com Sucesso", Toast.LENGTH_LONG).show()
-                val intent = Intent(this, Login::class.java)
+                Toast.makeText(this, getString(R.string.cadastro_sucesso), Toast.LENGTH_LONG).show()
+                val intent = Intent(this, LoginActivity::class.java)
                 startActivity(intent)
                 finish()
-            }else {
-                Toast.makeText(this, "Usuario ja cadastrado", Toast.LENGTH_LONG).show()
+            } else {
+                Toast.makeText(this, getString(R.string.usuario_cadastrado), Toast.LENGTH_LONG).show()
             }
         }
     }
