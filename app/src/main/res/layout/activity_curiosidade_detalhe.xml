@@ -2,11 +2,57 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:background="@color/cc">
 
-    <TextView
-        android:id="@+id/textViewDetalhe"
+    <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="583dp"
+        android:layout_above="@id/button5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="62dp"
+        android:background="#1B484C"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <TextView
+                android:id="@+id/textViewDetalhe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="9dp"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </ScrollView>
+    </LinearLayout>
+
+    <Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:textSize="18sp" />
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:title="@string/detalhes" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/button"
+        android:text="@string/voltar"
+        android:textColor="@color/white" />
+
 </RelativeLayout>

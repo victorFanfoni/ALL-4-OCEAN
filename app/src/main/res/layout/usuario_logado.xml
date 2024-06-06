@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     android:background="@color/cc">
 
-
     <Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -13,41 +12,51 @@
 
     <Button
         android:id="@+id/Curiosidades"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Sobre"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/background_button2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="76dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginEnd="150dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/Curiosidade"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/Sobre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
-        android:layout_marginStart="49dp"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="42dp"
-        android:layout_toStartOf="@+id/ComoAjudar"
-        android:layout_toEndOf="@+id/Curiosidades"
-        android:background="@drawable/background_button2"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ComoAjudar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="82dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginEnd="150dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/sobre"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/ComoAjudar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="28dp"
-        android:background="@drawable/background_button2"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="150dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/ajudar"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/textView"
@@ -60,6 +69,8 @@
         android:drawableStart="@drawable/ic_arrow_back_ios_24"
         android:text="@string/sair"
         android:textColor="@color/white"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
         android:textAllCaps="true" />
 
     <TextView
@@ -68,11 +79,18 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="44dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerVertical="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="38dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
         android:text="@string/ajude_a_cuidar_dos_nossos_oceanos"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
     <Toolbar
         android:layout_width="match_parent"
@@ -118,33 +136,36 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+        android:layout_width="139dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="178dp"
-        android:layout_marginTop="47dp"
-        android:layout_marginEnd="165dp"
-        android:layout_centerInParent="true"
-        android:layout_centerHorizontal="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="130dp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
         android:text="@string/bem_vindo"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textSize="22sp" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
+        android:layout_width="139dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView3"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="178dp"
+        android:layout_marginStart="142dp"
         android:layout_marginTop="82dp"
-        android:layout_marginEnd="165dp"
+        android:textAlignment="center"
+        android:layout_marginEnd="130dp"
+        android:fontFamily="sans-serif-light"
         android:text=""
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
 </RelativeLayout>

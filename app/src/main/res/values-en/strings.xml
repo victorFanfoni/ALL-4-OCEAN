@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resources>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="Typos"
+    formatted="false">
 
     <string name="app_name">ALL 4 OCEAN</string>
 
@@ -11,7 +14,35 @@
     <string name="telefone">Phone</string>
     <string name="salvar">Save</string>
     <string name="como_eu_posso_ajudar">How Can I Help?</string>
-    <string name="informacoes_como_ajudar">Here are some ways to help the Blue Economy:\n\n1. Reduce the use of disposable plastic.\n\n2. Participate in coastal cleanup initiatives.\n\n3. Support sustainable companies and products.\n\n4. Educate yourself about the oceans and their importance to the planet.\n\n5. Contribute to marine conservation organizations.\n\n6. Practice sustainable fishing.\n\n7. Raise awareness about the importance of oceans for life on Earth.</string>
+    <string name="informacoes_como_ajudar">Here are some ways to help the Blue Economy:\n
+        Reduce the use of single-use plastic:\n
+        \n
+        Avoid single-use plastic products such as straws, bags and bottles.\n
+        Adopt reusable alternatives, such as water bottles, fabric bags and metal utensils.\n
+        Participate in coastal cleanup initiatives:\n
+        \n
+        Join local groups to clean up beaches, rivers and coastal areas.\n
+        Organize cleanup events in your community to get more people involved.\n
+        Support sustainable companies and products:\n
+        \n
+        Prefer to buy from companies that adopt sustainable practices and respect the environment.\n
+        Choose products made from recycled or biodegradable materials.\n
+        Educate yourself about the oceans and their importance to the planet:\n
+        \n
+        Learn about marine ecosystems and ocean biodiversity.\n
+        Attend lectures, workshops and courses on marine conservation.\n
+        Contribute to marine conservation organizations:\n
+        \n
+        Donate to NGOs and institutions that work to preserve the oceans.\n
+        Volunteer for marine conservation and research projects.\n
+        Practice sustainable fishing:\n
+        \n
+        Follow local fishing regulations to avoid overfishing.\n
+        Consume fish and seafood from sustainable and certified sources.\n
+        Raise awareness about the importance of the oceans for life on Earth:\n
+        \n
+        Share information about the importance of the oceans on social media.\n
+        Engage your community in discussions about marine conservation and environmental protection.</string>
     <string name="home">Home</string>
     <string name="buscar">Search</string>
     <string name="atulizar_cadastro">Update Registration</string>
@@ -23,7 +54,7 @@
     <string name="_25_curiosidades_sobre_os_oceanos">25 CURIOSITIES ABOUT THE OCEANS</string>
     <string name="Curiosidade">Curiosity</string>
     <string name="sobre">About</string>
-    <string name="ajudar">Help</string>
+    <string name="ajudar">how to help</string>
     <string name="sair">Exit</string>
     <string name="ajude_a_cuidar_dos_nossos_oceanos">Help take care of our oceans!!</string>
     <string name="bem_vindo">Welcome</string>
@@ -40,60 +71,236 @@
     <string name="cadastro_sucesso">Registration Successful</string>
     <string name="usuario_cadastrado">User already registered</string>
     <string name="ok">OK</string>
-    <string name="curiosidade_texto">curiosity_text</string>
-    <string name="curiosidade_titulo">curiosity_title</string>
-    <string name="curiosidade_1">Curiosity 1: The oceans cover 71% of the Earth s surface.</string>
-    <string name="curiosidade_2">Curiosity 2: Most of the life on Earth is in the oceans.</string>
-    <string name="curiosidade_3">Curiosity 3: The oceans produce over 50% of the planet s oxygen.</string>
-    <string name="curiosidade_4">Curiosity 4: There are more historical artifacts submerged in the sea than in all the museums of the world.</string>
-    <string name="curiosidade_5">Curiosity 5: The largest animal in the world, the blue whale, lives in the oceans.</string>
-    <string name="curiosidade_6">Curiosity 6: Less than 5% of the world\'s oceans have been explored.</string>
-    <string name="curiosidade_7">Curiosity 7: Ocean currents transport heat around the globe.</string>
-    <string name="curiosidade_8">Curiosity 8: Coral reefs are known as the rainforests of the sea.</string>
-    <string name="curiosidade_9">Curiosity 9: The ocean contains over 20 million tons of gold.</string>
-    <string name="curiosidade_10">Curiosity 10: The Mariana Trench is the deepest point in the oceans.</string>
-    <string name="curiosidade_11">Curiosity 11: The temperature of seawater can influence global climate.</string>
-    <string name="curiosidade_12">Curiosity 12: The world\'s longest mountain range is submerged in the ocean.</string>
-    <string name="curiosidade_13">Curiosity 13: Jellyfish are some of the oldest organisms on the planet.</string>
-    <string name="curiosidade_14">Curiosity 14: Sound travels five times faster in water than in air.</string>
-    <string name="curiosidade_15">Curiosity 15: There are underwater lakes and rivers in the oceans.</string>
-    <string name="curiosidade_16">Curiosity 16: The ocean harbors over 90% of the available habitat for life.</string>
-    <string name="curiosidade_17">Curiosity 17: Tsunamis are giant waves caused by underwater earthquakes.</string>
-    <string name="curiosidade_18">Curiosity 18: The Arctic sea ice layer is diminishing.</string>
-    <string name="curiosidade_19">Curiosity 19: The manatee, a marine mammal, is known as the sea cow.</string>
-    <string name="curiosidade_20">Curiosity 20: There are active underwater volcanoes.</string>
-    <string name="curiosidade_21">Curiosity 21: Ocean waters are composed of 3.5% salt.</string>
-    <string name="curiosidade_22">Curiosity 22: The ocean has an incredible and still unknown biodiversity.</string>
-    <string name="curiosidade_23">Curiosity 23: Krill, a small crustacean, serves as a cornerstone in the marine food chain.</string>
-    <string name="curiosidade_24">Curiosity 24: Waves are primarily caused by wind.</string>
-    <string name="curiosidade_25">Curiosity 25: The sea plays a crucial role in the water cycle.</string>
-    <string name="detalhe_curiosidade_1">Curiosity 1 Detail: The oceans are not evenly distributed, with most of the water concentrated in the southern hemisphere.</string>
-    <string name="detalhe_curiosidade_2">Curiosity 2 Detail: About 94% of the planet\'s species of life are aquatic.</string>
-    <string name="detalhe_curiosidade_3">Curiosity 3 Detail: Phytoplankton in the oceans are responsible for much of the oxygen production.</string>
-    <string name="detalhe_curiosidade_4">Curiosity 4 Detail: The oceans are a vast repository of history, with many shipwrecks and submerged ruins.</string>
-    <string name="detalhe_curiosidade_5">Curiosity 5 Detail: Blue whales can grow up to 30 meters long and weigh up to 200 tons.</string>
-    <string name="detalhe_curiosidade_6">Curiosity 6 Detail: Ocean exploration is limited by its extreme depth and pressure.</string>
-    <string name="detalhe_curiosidade_7">Curiosity 7 Detail: Ocean currents are driven by wind and the rotation of the Earth.</string>
-    <string name="detalhe_curiosidade_8">Curiosity 8 Detail: Coral reefs harbor about 25% of all marine life.</string>
-    <string name="detalhe_curiosidade_9">Curiosity 9 Detail: Gold is dissolved in seawater in small concentrations.</string>
-    <string name="detalhe_curiosidade_10">Curiosity 10 Detail: The Mariana Trench has a depth of about 11,034 meters.</string>
-    <string name="detalhe_curiosidade_11">Curiosity 11 Detail: Phenomena like El Niño and La Niña are examples of how water temperature influences climate.</string>
-    <string name="detalhe_curiosidade_12">Curiosity 12 Detail: The Mid-Atlantic Ridge is a submerged mountain range that stretches for about 65,000 km.</string>
-    <string name="detalhe_curiosidade_13">Curiosity 13 Detail: Jellyfish have existed for over 500 million years.</string>
-    <string name="detalhe_curiosidade_14">Curiosity 14 Detail: Sound propagates faster in water due to its density.</string>
-    <string name="detalhe_curiosidade_15">Curiosity 15 Detail: Underwater lakes and rivers are formed by differences in salinity.</string>
-    <string name="detalhe_curiosidade_16">Curiosity 16 Detail: The oceans provide the largest continuous habitat on Earth.</string>
-    <string name="detalhe_curiosidade_17">Curiosity 17 Detail: Tsunamis can devastate coastal areas when they reach land.</string>
-    <string name="detalhe_curiosidade_18">Curiosity 18 Detail: The reduction of sea ice affects the habitat of Arctic species.</string>
-    <string name="detalhe_curiosidade_19">Curiosity 19 Detail: The manatee is a herbivore that lives in shallow coastal waters and rivers.</string>
-    <string name="detalhe_curiosidade_20">Curiosity 20 Detail: Underwater volcanoes can form new islands when they erupt.</string>
-    <string name="detalhe_curiosidade_21">Curiosity 21 Detail: The salt in the oceans comes from the erosion of terrestrial rocks.</string>
-    <string name="detalhe_curiosidade_22">Curiosity 22 Detail: New marine species are constantly being discovered.</string>
-    <string name="detalhe_curiosidade_23">Curiosity 23 Detail: Krill are vital for many marine species, including whales and penguins.</string>
-    <string name="detalhe_curiosidade_24">Curiosity 24 Detail: Wind energy transferred to the ocean surface generates waves.</string>
-    <string name="detalhe_curiosidade_25">Curiosity 25 Detail: The ocean is essential in the water cycle, including evaporation and precipitation.</string>
+    <string name="curiosidade_texto">Discover fascinating facts about the oceans and their importance to life on Earth.</string>
+    <string name="curiosidade_titulo">Ocean Curiosities</string>
+    <string name="curiosidade_1">Curiosity 1: The oceans cover 71% of the Earths surface, playing a vital role in the health of our planet.</string>
+    <string name="curiosidade_2">Curiosity 2: The oceans house most of the life on Earth, with about 94% of species living in their vast domains.</string>
+    <string name="curiosidade_3">Curiosity 3: The oceans are responsible for more than 50% of the oxygen we breathe, acting as the lungs of our planet.</string>
+    <string name="curiosidade_4">Curiosity 4: More historical artifacts are submerged in the oceans than in all the museums in the world, silently telling the stories of our past.</string>
+    <string name="curiosidade_5">Curiosity 5: The majestic blue whale, the largest animal in the world, calls the oceans home, reminding us of the grandeur of these environments.</string>
+    <string name="curiosidade_6">Curiosity 6: Less than 5% of the oceans have been explored, leaving vast unknown areas filled with mysteries to be discovered.</string>
+    <string name="curiosidade_7">Curiosity 7: Ocean currents are like the arteries of our planet, transporting essential heat and nutrients around the globe.</string>
+    <string name="curiosidade_8">Curiosity 8: Coral reefs are true biodiversity oases, providing crucial habitats for a myriad of marine species.</string>
+    <string name="curiosidade_9">Curiosity 9: In the depths of the oceans, there is an estimated reserve of more than 20 million tons of gold, a hidden treasure that challenges our understanding.</string>
+    <string name="curiosidade_10">Curiosity 10: The Mariana Trench, with its impressive depth of 11,034 meters, is the lowest point on Earth, revealing the magnitude of ocean depths.</string>
+    <string name="curiosidade_11">Curiosity 11: The temperature of seawater plays a fundamental role in regulating the global climate, influencing weather phenomena and ocean circulation patterns.</string>
+    <string name="curiosidade_12">Curiosity 12: Beneath the waves lies a majestic and colossal underwater mountain range, rivaling the tallest terrestrial mountains in grandeur.</string>
+    <string name="curiosidade_13">Curiosity 13: Jellyfish, ancient and delicate, have existed for more than 500 million years, witnessing the longevity and diversity of the oceans.</string>
+    <string name="curiosidade_14">Curiosity 14: In the depths of the oceans, sound travels five times faster in water than in air, creating a unique acoustic environment for marine life.</string>
+    <string name="curiosidade_15">Curiosity 15: Beneath the waves, underwater lakes and rivers form surreal landscapes, offering peculiar habitats for a variety of species.</string>
+    <string name="curiosidade_16">Curiosity 16: The oceans harbor more than 90% of the habitat available for life on Earth, sustaining complex ecosystems that regulate the climate and provide vital resources.</string>
+    <string name="curiosidade_17">Curiosity 17: Tsunamis are powerful waves caused by underwater earthquakes, capable of unleashing devastation in coastal areas, demonstrating the force of the oceans.</string>
+    <string name="curiosidade_18">Curiosity 18: The melting of sea ice in the Arctic is an alarming indicator of global climate change, affecting not only polar life but also global climate patterns.</string>
+    <string name="curiosidade_19">Curiosity 19: The manatee, a gentle herbivore, is essential for the health of coastal ecosystems, highlighting the importance of conserving these marine mammals.</string>
+    <string name="curiosidade_20">Curiosity 20: Active underwater volcanoes shape unique underwater landscapes, providing vital habitats for a variety of marine creatures and even forming new islands when they erupt.</string>
+    <string name="curiosidade_21">Curiosity 21: Ocean waters are composed of 3.5% salt, a testament to the long history of interaction between oceans and continents.</string>
+    <string name="curiosidade_22">Curiosity 22: The biodiversity of the oceans is truly extraordinary and still largely unknown, offering a vast realm of discovery and exploration.</string>
+    <string name="curiosidade_23">Curiosity 23: Krill, a small crustacean, is a cornerstone in the marine food web, feeding from the largest whales to the smallest fish and seabirds.</string>
+    <string name="curiosidade_24">Curiosity 24: The sound of waves is mainly generated by the wind, creating a constant symphony that echoes across the vast horizons of the oceans.</string>
+    <string name="curiosidade_25">Curiosity 25: The role of the ocean in the water cycle is fundamental, influencing evaporation, precipitation, and circulation processes that affect global climate and life across the planet.</string>
+    <string name="detalhe_curiosidade_1" >Curiosity Detail 1: \n\nThe oceans, in their distribution, exhibit a remarkable imbalance, with the majority of water concentrated in the Southern Hemisphere, covering about 80% of the globes surface. This uneven pattern contributes to a rich and varied tapestry of marine ecosystems, ranging from the icy Antarctic waters to the warm and tropical coral reefs.\n\nIn the Southern Hemisphere, the Antarctic Ocean surrounds the icy continent of Antarctica, providing vital support for unique biodiversity. Here, we find a myriad of species, including penguins, seals, and various whales, adapted to extreme conditions and dependent on this environment for survival.\n\nFurther north, the Indian and South Pacific Oceans are home to some of the worlds most vibrant coral reefs, such as the renowned Great Barrier Reef in Australia. This is the largest coral reef system on the planet, a true marine treasure that supports a multitude of marine species, from colorful fish to majestic sharks.\n\nBeyond their biological importance, this concentration of water in the Southern Hemisphere exerts a vital influence on global climate, affecting weather patterns around the world. Moreover, these marine ecosystems sustain entire human communities, providing essential resources such as food, transportation, and recreation. Therefore, the preservation and conservation of these ecosystems are crucial not only for marine life but also for the well-being and livelihoods of the people who depend on them.</string>
+    <string name="detalhe_curiosidade_2" formatted="false" >Curiosity Detail 2: \n\nLife in the oceans is truly remarkable and diverse, with an impressive proportion of 94% of the Earths species finding their home in the vast blue depths. This marine ecosystem harbors an extraordinary range of life, from tiny organisms like phytoplankton, responsible for producing much of the oxygen we breathe and forming the fundamental base of the marine food chain, to the majestic giants of the seas, such as blue whales, whose bodies can reach up to 30 meters in length and weigh up to 180 tons.\n\nOn coral reefs, although they occupy less than 1% of the ocean floor, we find a true oasis of biodiversity. Around 25% of all known marine species call these reefs home, including a multitude of colorful fish, crustaceans, mollusks, and a variety of aquatic plants. These reefs are true hubs of marine life, where the interdependence between different species is crucial for the survival of the entire ecosystem.\n\nDescending into the abyssal depths, located more than 4,000 meters deep, we encounter truly fascinating creatures adapted to an extremely hostile environment. An example is the anglerfish, which uses bioluminescent bait to attract its prey in the dark and unexplored depths. These deep ocean regions are like alien worlds, where life has developed unique characteristics to survive in such adverse conditions.\n\nFurthermore, marine algae forests and mangroves, often considered the nurseries of the ocean, play a vital role in preserving marine life and protecting coastlines from wave erosion. These coastal ecosystems serve as habitats for numerous marine species, providing a safe haven for reproduction and feeding.\n\nThis extraordinary diversity is not only crucial for the ecological balance of our planet but also represents an invaluable source of resources for humanity. The oceans provide food for billions of people worldwide, in addition to being sources of medicines and essential raw materials for various industries. Therefore, it is imperative that we protect and conserve these precious marine ecosystems, thus ensuring a sustainable future for all forms of life on our blue planet.</string>
+    <string name="detalhe_curiosidade_3" >Curiosity Detail 3: \n\nLife in the oceans is truly remarkable and diverse, with a staggering 94% of our planets species finding their home in the vast blue depths. This marine ecosystem is home to an extraordinary range of life, from tiny organisms, such as phytoplankton, responsible for producing a large part of the oxygen we breathe and the fundamental basis of the marine food chain, to the majestic giants of the seas, such as whales. blue, whose bodies can reach up to 30 meters in length and weigh up to 180 tons.\n
+        \n
+        In coral reefs, although they occupy less than 1% of the ocean floor, we find a true oasis of biodiversity. Around 25% of all known marine species make these reefs their home, including a multitude of colorful fish, crustaceans, molluscs and a variety of aquatic plants. These reefs are true centers of marine life, where the interdependence between different species is crucial for the survival of the entire ecosystem.\n
+
+        Descending into the abyssal depths, located more than 4,000 meters deep, we find truly fascinating creatures adapted to an extremely hostile environment. One example is the angler fish, which uses a bioluminescent bait to attract its prey in dark, unexplored depths. These deep regions of the ocean are like alien worlds, where life has developed unique characteristics to survive in such harsh conditions.\n
+        \n
+        Additionally, kelp forests and mangroves, which are often considered the oceans nurseries, play a vital role in preserving marine life and protecting coastlines from wave erosion. These coastal ecosystems serve as habitats for numerous marine species, offering a safe haven for breeding and feeding.\n
+
+        This extraordinary diversity is not only crucial to the ecological balance of our planet, but also represents an invaluable source of resources for humanity. The oceans provide food for billions of people around the world, as well as being sources of medicines and essential raw materials for various industries. Therefore, it is imperative that we protect and conserve these precious marine ecosystems, thus ensuring a sustainable future for all life forms on our blue planet.</string>
+    <string name="detalhe_curiosidade_4" >Curiosity Detail 4: \n\nThe oceans are truly fascinating archaeological treasures, holding the secrets of shipwrecks and civilizations lost centuries ago, offering a unique window into humanitys past. Under the sea depths, we find the wrecks of historic ships, from legendary Viking ships and Spanish galleons to modern ocean liners like the iconic Titanic. Each shipwreck is like a link to the past, telling a unique story and revealing details about the technologies, cultures and ways of life of bygone eras.\n
+        \n
+        In addition to ships, the oceans hide traces of submerged cities, such as the mythical Atlantis and the ancient ruins of Dwarka, in India, challenging archaeologists with their mysteries to be unraveled. These underwater discoveries invite us to delve into the depths of human history and explore the enigmas that the oceans have held for millennia.\n
+        \n
+        In the deep waters, we also find precious artifacts such as ceramics, jewelry and weapons, which offer valuable insights into the trade and cultural interactions of ancient civilizations. Underwater exploration, driven by advanced technologies such as submersibles and robots, has allowed the discovery and detailed study of these archaeological sites, contributing significantly to our understanding of human history.\n
+        \n
+        The conservation of these submerged treasures is of critical importance, not only for science but also for global cultural heritage. They remind us of the deep interconnectedness between human societies and the vast oceans that surround them, highlighting the need to protect and preserve these treasures for future generations.</string>
+    <string name="detalhe_curiosidade_5" >Curiosity Detail 5: \n\nBlue whales, the largest animals on the planet, are truly impressive wonders of nature. With their incredible 30 meters in length and weight reaching up to 200 tons, these gentle giants dominate the oceans, being a majestic presence in all regions except the Arctic seas. Their epic migrations, which span thousands of kilometers between feeding and breeding grounds, are testament to the extraordinary power and endurance of these magnificent beings.\n
+        \n
+        These ocean giants are notable for their specialized diet, feeding primarily on krill, tiny crustaceans that they consume in truly astronomical quantities. During the feeding season, blue whales can ingest up to 4 tons of krill per day, highlighting their position at the top of the marine food chain and their importance for the balance of ocean ecosystems. Their presence not only shapes the biodiversity of the oceans, but also inspires awe and respect for their magnificence and complexity as living creatures.</string>
+    <string name="detalhe_curiosidade_6" >Curiosity Detail 6: OOcean exploration is a truly challenging mission, braving the unfathomable depths and extreme pressures that test the limits of technology and human courage. Surprisingly, only about 20% of the ocean floor has been mapped in detail so far, leaving vast areas unexplored and full of mysteries waiting to be revealed.\n
+        \n
+        As we venture into the ocean depths, we are confronted with a hostile and unforgiving environment. Pressure increases dramatically as we descend, reaching more than 1,000 times atmospheric pressure at sea level in the deepest parts, such as the Mariana Trench. This overwhelming pressure represents one of the most formidable challenges for underwater exploration, requiring advanced technologies and a deep understanding of physics and engineering to ensure the safety and success of expeditions.\n
+        \n
+        In addition to the extreme pressures, the ocean depths are also shrouded in total darkness where sunlight cannot penetrate. This pitch-black environment presents unique challenges for navigation and research, requiring the use of special technologies, such as sonars and cameras sensitive to infrared light, to explore and map the vast expanses of the seafloor.\n
+        \n
+        Despite the challenges, ocean exploration remains one of the final frontiers of human knowledge, offering the promise of incredible discoveries and fascinating insights into life on Earth and the mysteries of the aquatic universe.</string>
+    <string name="detalhe_curiosidade_7" >Curiosity Detail 7: Ocean currents, driven by complex interactions between wind, Earths rotation, and differences in water temperature and salinity, play a vital role in distributing heat and nutrients around the world, significantly influencing global climate and weather patterns. . These currents work like real conveyor belts, moving large volumes of hot water from the tropics to the polar regions and, in return, transporting cold water back to the tropics, regulating temperatures in different parts of the planet.\n\n
+        The interconnection between ocean currents and climate is deep and intricate. For example, the Gulf Stream, which originates in the Gulf of Mexico, is responsible for transporting warm water to regions of the North Atlantic, significantly influencing the climate of areas such as Western Europe. Similarly, the Humboldt Current, which flows along the west coast of South America, brings cold, nutrient-rich waters from the depths of the ocean to the surface, feeding a rich marine food chain and influencing local and global climate. \n
+        \n
+        In addition to regulating temperatures, ocean currents play a crucial role in distributing essential nutrients to marine life. They transport nutrients from deep regions to the surface, where they are essential for the growth of phytoplankton, the base of the marine food chain. Without these nutrients, the entire oceanic food web, which supports a wide variety of marine species, would be severely compromised.\n
+        \n
+        Therefore, ocean currents are not only important to physical processes in the ocean, but also have a profound impact on marine ecosystems and global climate, highlighting the need for continued monitoring and understanding of these complex systems.</string>
+    <string name="detalhe_curiosidade_8" >Curiosity Detail 8: \n\nCoral reefs are true biodiversity sanctuaries, housing a countless variety of marine life that plays fundamental roles in marine and coastal ecosystems. They are recognized as some of the most diverse and productive ecosystems on the planet, supporting up to 25% of all known marine species. These precious underwater habitats are not only a wonder of nature, but they also play crucial roles in the health of coastal ecosystems and protecting coastal areas from storms and erosion.\n
+        \n
+        The extraordinary diversity of coral reefs is evidenced by the vast array of organisms that inhabit them. Fish of all colors and sizes, from small gob ids to impressive sharks, find refuge and food among the corals. Molluscs like snails and sea slugs, as well as crustaceans like crabs and shrimp, thrive amid the complex coral structures. Additionally, a wide variety of cnidarians, including sea anemones and jellyfish, add even more diversity to these ecosystems.\n
+        \n
+        Coral reefs play vital roles as essential habitats, breeding sites and food sources for many marine species. For fish, for example, coral reefs offer safe shelters to reproduce and protect their young from predators. Additionally, the complex structure of reefs provides a wide variety of microhabitats for different species to adapt and thrive.\n
+        \n
+        In addition to their importance to ocean biodiversity, coral reefs play a crucial role in the economies and livelihoods of many coastal communities. They support fishing, tourism and recreation industries, providing jobs and livelihood opportunities for millions of people around the world. Therefore, the conservation and protection of coral reefs is essential not only for the health of marine ecosystems, but also for the human well-being and economic prosperity of coastal communities.</string>
+    <string name="detalhe_curiosidade_9">Curiosity Detail 9: \n\nThe presence of gold in ocean waters, although in extremely low concentrations, represents a fascinating wealth potential that has instigated human interest over the centuries. Studies estimate that the oceans contain approximately 20 million tons of dissolved gold, but in incredibly dilute concentrations, with about 13 gold particles for every trillion water particles.\n
+        \n
+        This discovery raises a series of technological and economic challenges for the efficient extraction of this valuable resource. Unlike land mines, where gold is concentrated in relatively accessible deposits, extracting gold from seawater requires innovative and highly sophisticated methods.\n
+        \n
+        Currently, there are no commercially viable technologies for large-scale extraction of dissolved gold in the oceans. Proposed methods include chemical adsorption techniques, such as using special resins to attract and retain gold particles from seawater. However, these processes are complex and costly, and so far have not proven economically viable for large-scale exploration.\n
+        \n
+        Despite the challenges, the potential for wealth represented by gold in the oceans continues to intrigue researchers and entrepreneurs, fueling the search for innovative and sustainable extraction technologies. In addition to the economic value, the exploitation of these resources also raises environmental and ethical questions, highlighting the importance of responsible and careful approaches to managing the oceans and their precious treasures.</string>
+
+    <string name="detalhe_curiosidade_10">Curiosity Detail 10: \n\nThe Mariana Trench, with its extreme depth, is one of the most inhospitable and unknown environments on the planet, challenging the limits of human exploration and offering unique insights into the depths of the Earth. Located in the western Pacific Ocean, the Mariana Trench reaches a depth of approximately 11,034 meters in the Challenger Deep, the deepest known point in the oceans.\n
+    \n
+    This region is characterized by a desolate and vast landscape, where darkness perpetuates and pressure is overwhelming. The water at this point is so deep that sunlight barely penetrates, creating a completely black and unfamiliar environment. The pressure at the base of the trench is approximately 1,000 times greater than atmospheric pressure at sea level, which is equivalent to about 1,100 kilograms per square centimeter.\n
+    \n
+    These extreme conditions make exploring the Mariana Trench an incredibly challenging task, requiring specialized technologies and equipment capable of withstanding intense pressures and operating in a hostile environment. Expeditions to this region require meticulous planning and safety precautions, as the associated risks are significant.\n
+    \n
+    Despite the challenges, exploration of the Mariana Trench has yielded important scientific discoveries, revealing new life forms adapted to these extreme conditions and providing crucial insights into the geological processes that shape the ocean floor. Each expedition to this remote and mysterious region expands our knowledge of Earths deepest, most unexplored environments, unlocking the secrets of the ocean depths and pushing the limits of our understanding.</string>
+    <string name="detalhe_curiosidade_11" >Curiosity Detail 11: \n\nPhenomena such as El Niño and La Niña are vivid examples of how changes in seawater temperatures can trigger extreme weather events around the world, highlighting the interconnectedness between the oceans and global climate.\n
+        \n
+        El Niño is a climate phenomenon characterized by the abnormal warming of surface waters in the Equatorial Pacific Ocean, especially near South America. This warming alters wind and precipitation patterns, affecting the climate in distant regions. During an El Niño event, tropical areas such as Peru and Ecuador may experience intense rainfall and flooding, while regions such as Southeast Asia and Australia may experience severe droughts and heat waves.\n
+        \n
+        Furthermore, El Niño can have significant impacts on the global climate, influencing weather patterns on different continents. For example, southern regions of North America could experience milder, drier winters during an El Niño, while parts of South America could experience increased rainfall and flooding.\n
+        \n
+        These extreme weather events can have significant socioeconomic consequences, affecting agriculture, food security, public health and infrastructure around the world. Therefore, understanding and monitoring the El Niño and La Niña phenomena is crucial for predicting and mitigating adverse impacts and adapting to climate change on a global scale.</string>
+    <string name="detalhe_curiosidade_12" >Curiosity Detail 12: \n\nThe Mid-Atlantic Ridge is an underwater mountain range that stretches along the Atlantic Ocean, dividing it into two halves. This impressive geological formation is a living testament to the large scale tectonic activity that shapes our planets geology.\n
+        \n
+        The mountain range is the result of tectonic plate divergence, where the plates of the Earths crust move away from each other. In this process, magma from the Earths mantle rises to fill the space between the plates, forming new crustal material. Over millions of years, this continuous activity resulted in the formation of the Mid Atlantic Ridge and the spreading of the sea floor.\n
+        \n
+        The Mid Atlantic Ridge plays a crucial role in understanding continental drift, a theory proposed by scientist Alfred Wegener in the early 20th century. This theory suggests that continents move over geological time due to the movement of tectonic plates. The evidence provided by the Mid Atlantic Ridge, where tectonic activity is clearly visible, helps support and deepen our understanding of the processes that drive continental drift.\n
+        \n
+        Furthermore, the underwater mountain range serves as a focal point for geological and geophysical studies, providing valuable information about the Earths internal structure, the dynamics of tectonic plates and the processes of oceanic relief formation. These discoveries not only expand our knowledge of Earths evolution, but also have practical applications in fields such as natural resource exploration, earthquake and tsunami prediction, and urban and coastal planning.</string>
+    <string name="detalhe_curiosidade_13" >Curiosity Detail 13:\n\n Jellyfish, with their ethereal appearance and long evolutionary history, are true survivors of the oceans, adapting and thriving for more than half a billion years. Belonging to the phylum Cnidaria, these marine creatures are witnesses to a period in Earths history that dates back to the Cambrian, which makes them one of the oldest and most resilient forms of life on the planet.\n
+        \n
+        Over more than 500 million years, jellyfish have developed a remarkable diversity of forms and adaptations, allowing them to inhabit a wide range of marine environments, from shallow waters to abyssal depths. Its ability to adapt to a variety of challenging environmental conditions is a testament to its incredible versatility and endurance.\n
+        \n
+        In addition to their long evolutionary history, jellyfish also play an important role in marine ecosystems as predators and prey, contributing to the population regulation of other marine species. Despite their delicate appearance and graceful movements, many jellyfish are equipped with poisonous tentacles, used to capture prey and defend themselves from predators.\n
+        \n
+        However, the evolutionary success of jellyfish also presents challenges, especially in the face of environmental change and human activity. Changes in the oceans, such as rising water temperatures and acidification, can significantly affect jellyfish populations and disrupt marine ecosystems. Therefore, better understanding the ecology and biology of jellyfish is crucial to preserving ocean health and ensuring the sustainability of marine ecosystems for future generations.</string>
+    <string name="detalhe_curiosidade_14" >Curiosity Detail 14:\n\nThe speed of sound in water is significantly greater than in air, creating a unique acoustic environment that plays a crucial role in the communication and sensory perception of many marine species. While the speed of sound in air is approximately 343 meters per second, in seawater it is around 1,500 meters per second, although this value can vary depending on temperature, salinity and water pressure.\n
+        \n
+        This difference in the speed of sound between water and air has important implications for marine life. For example, communication between whales and dolphins, which rely on sounds to communicate and orient themselves, is much more efficient in water than in air due to the greater speed of sound. Furthermore, the ability to detect and locate prey, avoid predators, and navigate underwater environments relies heavily on acoustic perception, which is optimized by the rapid propagation of sound in water.\n
+        \n
+        Humans also benefit from this unique feature of water. Sonar, a technology that uses sound waves to detect underwater objects, takes advantage of the speed of sound in water to map the seabed, locate sunken ships and even study the topography of the ocean. Therefore, understanding underwater acoustics is essential not only for the study of marine life, but also for various technological applications that explore the oceans.</string>
+    <string name="detalhe_curiosidade_15" >Curiosity Detail 15: \n\nUnderwater lakes and rivers are unique phenomena that challenge our understanding of terrestrial hydrology, revealing the intricate processes of circulation and interaction between fresh and salt water in oceanic environments. These phenomena, often discovered in submerged caves or coastal regions, exemplify the complexity of hydrological systems and the diversity of underwater habitats.\n
+        \n
+        These submerged bodies of water can form in several ways. For example, underwater lakes can develop in areas where fresh water accumulates in underwater geological depressions, often associated with groundwater or underground water sources. Underwater rivers are continuous streams of freshwater that flow beneath the surface of the sea, generally resulting from the release of large quantities of freshwater from nearby rivers or underwater sources.\n
+        \n
+        These underwater ecosystems are true oases of life, housing a great diversity of organisms adapted to the unique conditions of these environments. In submerged lakes, for example, species of fish and crustaceans adapted to darkness and lack of oxygen can be found, while in underwater rivers, algae, invertebrates and even migratory fish can thrive.\n
+        \n
+        In addition to their ecological value, underwater lakes and rivers also have scientific importance, offering insights into the circulation of freshwater and the interaction between fresh and salt water in the oceans. Studying these systems can also provide information about the geological and climatic history of the region, as well as groundwater dynamics.\n
+        \n
+        However, these environments also face threats such as pollution, habitat destruction and climate change, which can compromise their health and biodiversity. Therefore, the protection and conservation of these unique ecosystems are essential to ensure their survival and maintain the health of the oceans as a whole.</string>
+    <string name="detalhe_curiosidade_16" >Curiosity Detail 16: \n\nThe vastness of the oceans is home to an unparalleled richness of life, with a multitude of species adapted to a wide range of habitats, from shallow reefs to abyssal depths. This marine biodiversity is one of the most varied and complex on the planet, supporting ecosystems essential for environmental balance and providing vital resources for humanity.\n
+        \n
+        In coral reefs, for example, we find a myriad of life forms, from colorful fish to exotic corals and other sea creatures, all interacting in a delicate ecological balance. Not only do reefs provide habitat for a wide diversity of species, they also protect coastlines against erosion, provide opportunities for tourism, and contribute to the local economy.\n
+        \n
+        In abyssal waters, where sunlight does not penetrate, organisms adapted to extreme conditions of pressure and temperature live. Bioluminescent fish, gelatinous creatures, and other surprising life forms thrive in these dark depths often unknown to science.\n
+        \n
+        Furthermore, the oceans play a crucial role in regulating global climate, absorbing carbon dioxide and releasing oxygen, as well as influencing weather patterns and ocean currents. They also provide a vital source of food for billions of people around the world, supporting fishing industries and coastal communities.\n
+        \n
+        However, marine biodiversity faces increasing threats from overfishing, pollution, climate change and habitat destruction. The conservation of the oceans and their species is fundamental to ensuring the health of marine ecosystems and the well-being of future generations.</string>
+    <string name="detalhe_curiosidade_17" >Curiosity Detail 17: \n\n Tsunamis are frightening natural phenomena, triggered by events such as underwater earthquakes, which can generate gigantic waves capable of causing devastation in distant coastal areas. These events occur when large volumes of water are suddenly displaced, usually due to seismic movements on the ocean floor, but can also be caused by underwater landslides, volcanic eruptions and, in rare cases, meteor impacts.\n
+        \n
+        When an underwater earthquake occurs, tectonic plates move rapidly, pushing or pulling large volumes of water along with them. This creates a series of waves that rapidly propagate across the oceans surface, traveling at impressive speeds and accumulating energy along the way. As these waves approach the shore, the depth of the water decreases and wave energy is compressed, resulting in a significant increase in wave height.\n
+        \n
+        When a tsunami hits the coast, it can manifest itself as a series of waves, some of which can be extremely tall and powerful. These waves can flood coastal areas, destroy infrastructure and cause significant human and material losses. Furthermore, tsunamis can travel long distances across the ocean, crossing entire oceans and reaching countries and continents far from their source of origin.\n
+        \n
+        Although tsunamis are inevitable natural phenomena in regions prone to earthquakes and seismic activity, early warning systems and proper planning can help reduce the impact of these events, allowing coastal communities to prepare and evacuate at-risk areas when necessary.</string>
+    <string name="detalhe_curiosidade_18" >Curiosity Detail 18: \n\nThe decline of sea ice in the Arctic is an alarming sign of global climate change, with profound impacts not only on polar regions but also on the entire planets climate and ocean biodiversity. The accelerated reduction of sea ice in the Arctic has been documented in recent decades, with observations indicating significant loss of ice extent and thickness during the summer months.\n\nImpacts on Polar Regions\nThe decrease in sea ice directly affects Arctic ecosystems, which rely on ice for the survival of many species. Polar bears, seals, walruses, and various seabirds use the ice as a platform for hunting, breeding, and resting. With the reduction of ice, these species face increasing challenges in finding food and safe places to live. Additionally, the decrease in ice habitat contributes to the vulnerability of species already threatened by habitat loss and pollution.\n\nEffects on Global Climate\nThe decline of sea ice in the Arctic has significant implications for global climate through various mechanisms:\n\nReduced Albedo: Sea ice has a high reflectivity (albedo), reflecting much of the solar radiation back into space. As the ice melts, it is replaced by darker seawater, which absorbs more heat, accelerating local warming and contributing to a positive feedback cycle that further accelerates melting.\n\nAtmospheric and Oceanic Circulation: Changes in the Arctic affect atmospheric and oceanic circulation patterns. The reduction of sea ice can influence the jet stream, altering weather patterns in mid latitudes and impacting the frequency and intensity of extreme weather events such as heatwaves, droughts, and storms.\n\nRelease of Greenhouse Gases: Arctic warming can also release additional greenhouse gases, such as methane, stored in permafrost and the ocean floor, further exacerbating climate change.\n\nConsequences for Ocean Biodiversity\nChanges in sea ice also affect marine biodiversity. Primary productivity in the Arctic, which depends on the availability of light and nutrients, may be altered, impacting the marine food chains base. For example, phytoplankton may have its life cycle modified by changes in light and temperature conditions, affecting the entire trophic chain, including fish, marine mammals, and birds.\n\nSocioeconomic Implications\nHuman communities in the Arctic also suffer from the reduction of sea ice. Indigenous peoples who depend on traditional hunting and fishing find themselves struggling due to habitat loss and declining populations of animals they hunt. Additionally, the opening of new maritime routes due to ice melting may lead to geopolitical conflicts and challenges related to governance, security, and environmental protection.\n\nAction and Mitigation\nTo address the challenges presented by the decline of sea ice in the Arctic, it is crucial to intensify global efforts to mitigate climate change. Reducing greenhouse gas emissions, promoting renewable energy, and implementing conservation policies are essential steps. Additionally, investing in continuous research and monitoring is necessary to better understand ongoing changes and develop effective adaptation strategies.\n\nIn summary, the decline of sea ice in the Arctic is a clear indicator of global climate change, with broad environmental, climatic, and socioeconomic repercussions. Coordinated and urgent actions are needed to mitigate these impacts and protect both Arctic ecosystems and global climate stability.</string>
+    <string name="detalhe_curiosidade_19" >Curiosity Detail 19: \n\nThe manatee, nicknamed the "sea cow" for its docile and herbivorous nature, plays a vital role in coastal ecosystems, helping to maintain the health of mangroves and sea grasslands. These aquatic mammals belong to the order Sirenia and are found mainly in the coastal waters and rivers of Florida, Central America, South America and West Africa.\n
+        \n
+        Manatees contribute to environmental sustainability by grazing on aquatic vegetation, which promotes the healthy growth of these plants and prevents harmful algal overgrowth. Their presence is an indicator of the health of aquatic ecosystems, and their conservation is essential for the biodiversity and environmental balance of the regions where they live.</string>
+    <string name="detalhe_curiosidade_20" >Curiosity Detail 20: \n\nUnderwater volcanoes are fascinating windows into the geological processes that shape our planet, playing a crucial role in the formation of new lands and the creation of unique habitats that are home to a rich diversity of marine life. Located mainly along mid-ocean ridges and in subduction zones, these volcanoes are responsible for about 75% of Earths volcanic activity. They release large amounts of minerals and gases, such as carbon dioxide and sulfur, which influence the chemistry of the oceans and atmosphere.\n
+        \n
+        Underwater volcanic activity contributes to the creation of islands and seamounts, as well as fueling hydrothermal vents that support unique ecosystems. Hydrothermal vents, also known as black chimneys, release hot, mineral-rich water, creating environments conducive to the life of extremophile organisms that thrive in extreme conditions of temperature and pressure.\n
+        \n
+        These ecosystems are fundamental to the study of biology and ecology, as they offer insights into life in extreme conditions and the potential to discover new species and bioactive compounds. Furthermore, underwater volcanic activity plays an essential role in recycling nutrients in the ocean, promoting biological productivity and the health of marine ecosystems.</string>
+    <string name="detalhe_curiosidade_21" >Curiosity Detail 21: \n\nOcean salinity is a crucial factor in regulating ocean circulation patterns and nutrient distribution, significantly affecting marine life and global climate patterns. The salt concentration in seawater, which on average is about 35 parts per thousand (ppt), plays an essential role in several oceanographic and ecological processes.\n
+        \n
+        Variation in salinity influences the density of seawater, which in turn affects thermohaline circulation - a global system of ocean currents that redistributes heat and regulates Earths climate. Regions with high salinity, such as the Red Sea, have denser water, which tends to sink, while areas of low salinity, such as those close to the polar ice caps where ice melts, have less dense water that remains on the surface. This movement of water plays a vital role in modulating global weather patterns and transferring heat from the tropics to the polar regions.\n
+        \n
+        Additionally, salinity affects the solubility of gases in water, including oxygen and carbon dioxide, which directly impacts the respiration and photosynthesis of marine organisms. Variations in salinity can also influence osmoregulation - the process by which marine organisms maintain the balance of water and salt in their bodies, essential for the survival of many species.\n
+        \n
+        In ecological terms, salinity influences the distribution of marine species, with some species being highly specialized and adapted to specific levels of salinity. Areas with variable salinity, such as estuaries, are biodiversity hotspots, offering a nutrient-rich environment and shelter for many juvenile species.\n
+        \n
+        Therefore, understanding ocean salinity is fundamental to oceanographic science, helping to predict climate change, protect marine ecosystems and ensure the sustainability of marine life.</string>
+    <string name="detalhe_curiosidade_22" >Curiosity Detail 22: \n\nThe discovery of new marine species continues to surprise scientists, highlighting the vastness and complexity of the oceans and the importance of marine conservation to protect these precious ecosystems. As ocean exploration advances with more advanced technologies and dedicated scientific expeditions, an increasingly detailed and diverse picture of marine life is emerging.\n
+        \n
+        The use of technologies such as submersibles, underwater drones and remote sensors has allowed researchers to explore previously inaccessible regions of the oceans, revealing deep habitats and unknown biodiversity. These innovations have yielded remarkable discoveries, from tiny microorganisms to large marine predators, each playing a vital role in marine ecosystems.\n
+        \n
+        The discovery of new species not only enriches our understanding of marine biology, but also has significant implications for science and medicine. Many marine organisms produce unique chemical compounds that have the potential for the development of new medicines and treatments. For example, certain marine sponges and corals have shown promising anticancer and antimicrobial properties.\n
+        \n
+        Additionally, identifying new species helps inform and direct conservation efforts. Understanding the distribution and behavior of these species is crucial to developing effective strategies for protecting and managing marine habitats. Marine conservation is essential to maintaining the health of the oceans, which are fundamental to regulating the global climate, providing oxygen and supporting human life through fishing and other economic activities.\n
+        \n
+        Therefore, the continued exploration and discovery of new marine species underscores the need for robust conservation and research efforts to protect the incredible diversity of the oceans and ensure that these complex ecosystems can thrive for future generations.</string>
+    <string name="detalhe_curiosidade_23" >Curiosity Detail 23: \n\nKrill, one of the fundamental pillars of the marine food chain, plays a crucial role in supporting a wide variety of species, from small fish to large marine mammals. These small crustaceans are a vital source of food for whales, seals, penguins and many other marine animals, forming the basis of the diet of many of these species.\n
+        \n
+        The importance of krill in the health of ocean ecosystems is indisputable, influencing population dynamics and energy flows at all trophic levels. They play an essential role in transferring energy from the microscopic algae (phytoplankton), which they consume, to higher trophic levels, maintaining the balance and functionality of marine ecosystems.\n
+        \n
+        In addition to its ecological function, krill also have a significant impact on the biogeochemical cycles of the oceans. By feeding on phytoplankton, krill help regulate oxygen production and carbon dioxide absorption in the oceans, contributing to climate change mitigation. Their excretion provides nutrients that fertilize phytoplankton, promoting primary productivity and sustaining the marine food chain.\n
+        \n
+        Krill fishing for the production of krill oil and aquaculture feed has increased, raising concerns about the sustainability of these practices and their impacts on marine ecosystems. Responsible management and regulation of krill fishing is essential to ensure that the exploitation of these resources does not compromise ocean health and marine biodiversity.\n
+        \n
+        Therefore, the conservation and study of krill are fundamental to the preservation of marine ecosystems. Protecting krill is protecting the base of the oceanic food chain, ensuring the survival of countless species and the health of the oceans as a whole.</string>
+    <string name="detalhe_curiosidade_24" >Curiosity Detail 24: \n\nWaves, primarily generated by the wind, are a powerful manifestation of ocean energy and play a vital role in shaping and dynamic coastal zones, influencing human and marine life in profound and diverse ways.
+        \n\n
+        Formation and Characteristics of Waves
+        \n\n
+        Origin
+        \n
+        Waves are produced by the friction of the wind over the ocean surface. This process transfers the winds kinetic energy to the water, generating ripples that propagate outward in all directions.
+        \n\n
+        Propagation
+        \n
+        As waves travel across the ocean, they are shaped by a variety of factors, including the strength and direction of the wind, the distance traveled, and the water depth. These elements influence the size, shape, and speed of the waves, creating a dynamic landscape of movement and energy.
+        \n\n
+        Impact on Coastal Zones
+        \n\n
+        Erosion and Beach Formation
+        \n
+        Waves exert a powerful erosive force on coastlines, wearing away rock formations and shaping beaches over time. At the same time, wave energy transports sediments along the coast, contributing to the formation and expansion of beaches and sandbanks.
+        \n\n
+        Coastal Ecosystem Dynamics
+        \n
+        In addition to shaping the geography of coastal zones, waves play a fundamental role in the dynamics of adjacent marine ecosystems. They create diverse habitats such as coral reefs, estuaries, and coastal dunes, which support a rich variety of marine and terrestrial life.
+        \n\n
+        Influence on Marine Life
+        \n\n
+        Habitat and Migration
+        \n
+        Wave characteristics directly influence the distribution and behavior of many marine species. They create currents and turbulence that affect organism movement, facilitating migration, feeding, and reproduction in different ocean areas.
+        \n\n
+        Nutrient Cycle
+        \n
+        Furthermore, waves play a role in nutrient cycling in coastal ecosystems. They promote the mixing of nutrient-rich waters, stimulating phytoplankton growth and feeding the marine food chain base.
+        \n\n
+        Human Activities and Recreation
+        \n\n
+        Tourism and Economy\n
+        Coastal zones are areas of great economic and touristic importance. Beaches attract millions of tourists annually, generating significant revenue for local communities and sustaining industries such as tourism, fishing, and maritime trade.\n\nChallenges and Coastal Management\n
+        However, human development in coastal zones also presents significant challenges, such as coastal erosion, marine pollution, and the impacts of climate change. Integrated coastal zone management is essential to address these challenges and ensure the sustainability of marine ecosystems and coastal communities.
+        \n\n
+        Conclusion\n
+        Waves are a powerful and dynamic force of the oceans, playing a vital role in shaping and dynamic coastal zones worldwide. Their influence extends from modeling coastal landscapes to sustaining marine life and promoting tourism and economic activity. Understanding and managing the effects of waves are essential to ensuring the health and resilience of coastal ecosystems in the face of current and future global challenges.</string>
+    <string name="detalhe_curiosidade_25" >Curiosity Detail 25: \n\nThe ocean is, in fact, the engine of the Earths water cycle, playing a crucial role not only in regulating the global climate, but also in sustaining life on our planet in multiple aspects. Its influence ranges from the supply of fresh water to the stability of marine and terrestrial ecosystems, illustrating its undeniable importance for the health and balance of our planet.\n
+        \n
+        Firstly, the ocean plays a fundamental role in the water cycle, acting as the largest reservoir of water on Earth. Ocean water evaporates under the influence of solar heat, forming clouds that are transported by winds to distant regions, where precipitation occurs, feeding rivers, lakes and groundwater. This freshwater is essential for agriculture, industry, urban water supplies and wildlife around the world.\n
+        \n
+        Furthermore, the oceans play a crucial role in regulating the global climate. They absorb large amounts of carbon dioxide from the atmosphere, acting as a carbon sink and helping to mitigate the effects of climate change. Additionally, ocean currents transport heat from the tropics to the poles, influencing climate patterns on a global and regional scale.\n
+        \n
+        Marine ecosystems are incredibly diverse and productive, providing habitat and sustenance for a vast array of species, from small fish to giant whales. Coral reefs, in particular, are biodiversity hotspots that support millions of marine species and protect coastlines against storms and erosion. Additionally, mangroves and kelp forests play important roles in filtering water, protecting coastal life, and cycling nutrients.\n
+        \n
+        In short, the ocean is a vital force that sustains life on Earth. Its importance goes beyond the scenic beauty and natural resources it offers; it is essential for the functioning of terrestrial and marine systems and for the well-being of all life forms on our planet. Preserving and protecting the oceans is a shared responsibility of all humanity, ensuring a sustainable future for present and future generations.</string>
     <string name="email_ou_senha_invalidos">Invalid email or password</string>
     <string name="projeto_info">Project: All4Ocean\n\nAll4Ocean is an application developed to raise awareness and protect the oceans. Our goal is to educate people about the importance of the oceans and encourage actions to preserve the marine environment.</string>
     <string name="economia_azul_info">Blue Economy:\n\nThe Blue Economy refers to all economic activities related to the oceans and seas. It includes sectors such as fishing, tourism, maritime transport, oceanic renewable energy, among others.</string>
+    <string name="vamos_atualizar_o_seu_email">We will update your password</string>
+    <string name="failed_to_send_reset_email">Failed to send reset email</string>
+    <string name="please_enter_your_email_address">Please enter your email address</string>
+    <string name="reset_email_sent">Password reset email sent</string>
+    <string name="error_invalid_user">User not found</string>
+    <string name="error_invalid_credentials">Invalid credentials</string>
+    <string name="error_user_collision">User collision</string>
+    <string name="detalhes">Details</string>
+
 
 </resources>

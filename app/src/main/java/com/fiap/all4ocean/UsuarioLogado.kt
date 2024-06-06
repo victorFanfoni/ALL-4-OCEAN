@@ -21,7 +21,7 @@ class UsuarioLogado : ComponentActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.logado)
+        setContentView(R.layout.usuario_logado)
 
         database = Firebase.database.reference
         auth = Firebase.auth
